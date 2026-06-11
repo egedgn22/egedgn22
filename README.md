@@ -1,14 +1,10 @@
 <div align="center">
 
-<!-- Typing animation -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Ege+Do%C4%9Fan+%F0%9F%91%8B;DevOps+Engineer;Automation+%7C+Containers+%7C+Kubernetes;Building+Reliable+Systems)](https://git.io/typing-svg)
 
 <br/>
 
-<!-- Badges -->
-![Location](https://img.shields.io/badge/📍_Location-Turkey-0D1117?style=for-the-badge&labelColor=0D1117&color=00D9FF)
-![Focus](https://img.shields.io/badge/🎯_Focus-Golden_Kubestronaut-0D1117?style=for-the-badge&labelColor=0D1117&color=7C3AED)
-![Status](https://img.shields.io/badge/⚡_Status-Open_to_Opportunities-0D1117?style=for-the-badge&labelColor=0D1117&color=00FF88)
+![Location](https://img.shields.io/badge/📍-Turkey-0D1117?style=for-the-badge&labelColor=0D1117&color=00D9FF)
 
 </div>
 
@@ -17,16 +13,13 @@
 ## `$ whoami`
 
 ```yaml
-name: Ege Doğan
-role: DevOps Engineer
-location: Turkey
+name:     Ege Doğan
+role:     DevOps Engineer
 focus:
   - CI/CD Pipeline Automation
-  - Container Orchestration (Kubernetes)
+  - Container Orchestration
   - Infrastructure as Code
   - Observability & Monitoring
-certification_path: Golden Kubestronaut (LFCS → KCNA → CKA → CKAD → CKS → ...)
-currently_learning: LFCS & Kubernetes internals
 ```
 
 ---
@@ -53,41 +46,18 @@ currently_learning: LFCS & Kubernetes internals
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-### 🔜 Learning Next
-![LFCS](https://img.shields.io/badge/LFCS-In_Progress-00D9FF?style=for-the-badge&logo=linux&logoColor=white)
-![KCNA](https://img.shields.io/badge/KCNA-Upcoming-7C3AED?style=for-the-badge&logo=kubernetes&logoColor=white)
-![CKA](https://img.shields.io/badge/CKA-Roadmap-555555?style=for-the-badge&logo=kubernetes&logoColor=white)
-
 </div>
-
----
-
-## `$ cat certification_roadmap.md`
-
-```
-GOLDEN KUBESTRONAUT PATH
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  Phase 1 │ [🔄] LFCS      [⏳] KCNA
-  Phase 2 │ [ ] CKA        [ ] CKAD
-  Phase 3 │ [ ] CKS        [ ] KCSA
-  Phase 4 │ [ ] CCA        [ ] ICA
-  Phase 5 │ [ ] CGOA
-  Phase 6 │ [ ] Kyverno    [ ] PCA
-  Phase 7 │ [ ] Backstage  [ ] CNPE
-
-  🔄 In Progress  ✅ Completed  ⏳ Upcoming  [ ] Planned
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
 
 ---
 
 ## `$ ls -la projects/`
 
-> 🚧 **Main Project** — Production-grade Kubernetes platform built from scratch.
-> Each phase adds a new layer: Linux → Containers → K8s → Security → GitOps → Observability → IDP
+> Hands-on implementations covering the full DevOps spectrum —
+> from container orchestration and CI/CD automation to
+> Kubernetes networking, security policies, GitOps workflows,
+> service mesh, and observability stacks.
 >
-> *(Repository launching soon — follow to get notified)*
+> 🔗 Repositories coming soon.
 
 ---
 

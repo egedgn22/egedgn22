@@ -79,7 +79,7 @@ focus:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ege_Doğan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ege-do%C4%9Fan-815360257/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ege_Doğan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/egedogan/)
 [![Medium](https://img.shields.io/badge/Medium-Technical_Writing-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@egedogan99)
 
 </div>

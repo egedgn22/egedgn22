@@ -28,7 +28,7 @@ The access token and all statistics and analytics data are stored only on the ow
 
 Once a week, the text of comments posted on the channel's videos in the last 14 days is sent to the Anthropic API to summarize which video topics viewers are asking for. Only the comment text, its like count and the video ID are sent; commenter names, channel IDs and profile data are not collected or sent. The resulting topic list is stored on the owner's computer; the comment texts themselves are not stored.
 
-Weekly backups (video history, channel statistics and reports, without any access tokens or keys) are stored in the owner's own Google Drive. Status notifications (video titles, publish times, error messages) are sent to the owner's own private Telegram chat through a bot only he controls.
+Weekly backups (video history, channel statistics and reports, without any access tokens or keys) are stored in the owner's own Google Drive. Draft scripts awaiting approval and status notifications (video titles, publish times, error messages) are sent to the owner's own private Telegram chat through a bot only he controls.
 
 No data is sold, shared with other third parties, or used for advertising.
 

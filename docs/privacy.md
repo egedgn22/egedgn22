@@ -14,11 +14,11 @@ youtube.readonly (https://www.googleapis.com/auth/youtube.readonly): to read the
 
 yt-analytics.readonly (https://www.googleapis.com/auth/yt-analytics.readonly): to read the channel's YouTube Analytics reports such as watch time, average view percentage, audience retention and subscribers gained. Read only.
 
-youtube.force-ssl (https://www.googleapis.com/auth/youtube.force-ssl): only to post one comment, written by the owner's channel, on each of the channel's own videos after it is published. The tool also reads the text of recent comments on the channel's own videos (this is possible with youtube.readonly as well).
+youtube.force-ssl (https://www.googleapis.com/auth/youtube.force-ssl): to post one comment, written by the owner's channel, on each of the channel's own videos after it is published, and, only when the owner presses a button for a specific video the tool uploaded, to publish it immediately, cancel its scheduled publish time, or delete it. The tool also reads the text of recent comments on the channel's own videos (this is possible with youtube.readonly as well).
 
 drive.file (https://www.googleapis.com/auth/drive.file): to store weekly backup files of the tool's own data in a folder in the owner's Google Drive. With this permission the tool can only see and manage files it created itself; it cannot see any other Drive files.
 
-The tool does not edit or delete any existing YouTube videos or comments, and does not access any other Google account data.
+Apart from those owner-initiated actions on videos the tool itself uploaded, the tool does not edit or delete any YouTube videos or comments, and does not access any other Google account data.
 
 ## How data is used and stored
 
@@ -28,7 +28,7 @@ The access token and all statistics and analytics data are stored only on the ow
 
 Once a week, the text of comments posted on the channel's videos in the last 14 days is sent to the Anthropic API to summarize which video topics viewers are asking for. Only the comment text, its like count and the video ID are sent; commenter names, channel IDs and profile data are not collected or sent. The resulting topic list is stored on the owner's computer; the comment texts themselves are not stored.
 
-Weekly backups (video history, channel statistics and reports, without any access tokens or keys) are stored in the owner's own Google Drive. Draft scripts awaiting approval and status notifications (video titles, publish times, error messages) are sent to the owner's own private Telegram chat through a bot only he controls.
+Weekly backups (video history, channel statistics and reports, without any access tokens or keys) are stored in the owner's own Google Drive. Draft scripts awaiting approval, finished video files for preview and status notifications (video titles, publish times, error messages) are sent to the owner's own private Telegram chat through a bot only he controls.
 
 No data is sold, shared with other third parties, or used for advertising.
 
